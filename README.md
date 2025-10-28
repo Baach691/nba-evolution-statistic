@@ -41,7 +41,6 @@ python main.py
 python 3pts_evolution.py
 python pace_evolution.py
 ```
-Chaque script peut accepter des arguments (fichiers d'entrée, options de sortie). Consultez l'entête du script ou ajoutez `--help` si l'option est implémentée.
 
 ### Structure des fichiers et entrée attendue
 Les scripts attendent généralement des données tabulaires (CSV) contenant des colonnes telles que : saison, équipe, possession, tentatives_de_3pts, réussite_de_3pts, etc. Si les jeux de données utilisés proviennent d'une API ou d'un format différent, adaptez la partie lecture dans le script (fonctions d'import).
@@ -54,10 +53,7 @@ Exemple minimal de colonnes acceptées :
 - 3pt_made: paniers marqués à trois points
 
 ### Données et sources
-Ce projet n'inclut pas forcément les données brutes. Sources possibles :
-- Base de données publique (ex. Basketball-Reference, stats.nba.com via API)
-- Jeux de données CSV exportés manuellement
-Précisez la source des données dans le README final si vous publiez le projet.
+- API : [swar/nba_api](https://github.com/swar/nba_api)
 
 ### Suggestions d'améliorations (next steps)
 - Ajouter un script de téléchargement / pré-traitement des données.
@@ -68,8 +64,3 @@ Précisez la source des données dans le README final si vous publiez le projet.
 ### Contribution
 Contributions bienvenues. Ouvrez une issue pour proposer une fonctionnalité ou un bug, puis envoyez une pull request avec une description claire des modifications.
 
-### Licence
-Indiquez ici la licence choisie (MIT, BSD, GPL, etc.). Si vous n'avez pas encore choisi, ajoutez un fichier `LICENSE` plus tard.
-
-### Contact
-Pour questions ou retours : ajoutez votre adresse e-mail ou lien GitHub.
